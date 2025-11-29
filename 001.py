@@ -1,6 +1,6 @@
 import streamlit as st
-from sklearn.linear_model import LinearRegression
 import feedparser
+from sklearn.linear_model import LinearRegression
 
 # --- NEW: page config + custom styles ---
 st.set_page_config(page_title="Photify", layout="wide", initial_sidebar_state="expanded")
@@ -91,7 +91,7 @@ with tab2:
     st.write("""
     Photify là một ứng dụng nghe nhạc trực tuyến miễn phí, cho phép người dùng lựa chọn nghệ sĩ yêu thích và thưởng thức các bài hát của họ thông qua các video nhạc được nhúng từ YouTube.
 
-    Trong thời đại công nghệ số phát triển mạnh mẽ, việc tiếp cận âm nhạc trở nên dễ dàng hơn bao giờ hết. Tuy nhiên, giữa vô vàn các nền tảng nghe nhạc hiện nay, Photify nổi bật lên như một lựa chọn thân thiện, đơn giản và hiệu quả dành cho mọi đối tượng người dùng. Ứng dụng này được xây dựng dựa trên nền tảng Streamlit, một framework mạnh mẽ giúp tạo ra các ứng dụng web tương tác một cách dễ dàng và nhanh chóng. Nhờ đó, Photify không chỉ mang đến trải nghiệm nghe nhạc mượt mà mà còn giúp người dùng tương tác trực tiếp với giao diện, lựa chọn nghệ sĩ và bài hát yêu thích chỉ với vài thao tác đơn giản.
+    Trong thời đại công nghệ số phát triển mạnh mẽ , việc tiếp cận âm nhạc trở nên dễ dàng hơn bao giờ hết. Tuy nhiên, giữa vô vàn các nền tảng nghe nhạc hiện nay, Photify nổi bật lên như một lựa chọn thân thiện, đơn giản và hiệu quả dành cho mọi đối tượng người dùng. Ứng dụng này được xây dựng dựa trên nền tảng Streamlit, một framework mạnh mẽ giúp tạo ra các ứng dụng web tương tác một cách dễ dàng và nhanh chóng. Nhờ đó, Photify không chỉ mang đến trải nghiệm nghe nhạc mượt mà mà còn giúp người dùng tương tác trực tiếp với giao diện, lựa chọn nghệ sĩ và bài hát yêu thích chỉ với vài thao tác đơn giản.
 
     Photify hướng tới mục tiêu trở thành cầu nối giữa người yêu nhạc và các nghệ sĩ nổi tiếng trên toàn thế giới. Ứng dụng cung cấp danh sách các nghệ sĩ đa dạng, từ những ban nhạc trẻ trung như Ngọt, những nghệ sĩ indie quốc tế như Hotel Ugly, cho đến các rapper đình đám như Kendrick Lamar. Mỗi nghệ sĩ đều có bộ sưu tập các video nhạc nổi bật, giúp người dùng dễ dàng khám phá và thưởng thức những ca khúc hay nhất của họ.
 
@@ -111,7 +111,7 @@ with tab2:
 
     Trong tương lai, Photify sẽ mở rộng hợp tác với các nghệ sĩ, nhà sản xuất âm nhạc và các nền tảng truyền thông để mang đến nhiều nội dung phong phú hơn nữa. Chúng tôi cũng sẽ phát triển các tính năng thông minh như đề xuất bài hát dựa trên sở thích cá nhân, tạo playlist tự động, và tích hợp các công cụ chia sẻ lên mạng xã hội, giúp bạn dễ dàng lan tỏa niềm đam mê âm nhạc đến bạn bè và người thân.
 
-    Âm nhạc là một phần không thể thiếu trong cuộc sống, là nguồn động lực giúp chúng ta vượt qua những khó khăn, là nơi lưu giữ những kỷ niệm đẹp và là chất xúc tác cho sự sáng tạo. Với Photify, bạn sẽ luôn có một không gian âm nhạc riêng, nơi mọi cảm xúc đều được lắng nghe và thấu hiểu. Hãy để Photify đồng hành cùng bạn trên hành trình khám phá âm nhạc, mở rộng thế giới quan và kết nối với những tâm hồn đồng điệu.
+    Âm nhạc là ngôn ngữ chung của nhân loại, là cầu nối giữa các nền văn hóa, là nguồn cảm hứng bất tận cho cuộc sống. Với Photify, bạn không chỉ được nghe nhạc mà còn được sống trong không gian âm nhạc đầy màu sắc, nơi mọi cảm xúc đều được thăng hoa.
 
     Cảm ơn bạn đã lựa chọn Photify. Chúng tôi hy vọng bạn sẽ có những trải nghiệm âm nhạc tuyệt vời, những phút giây thư giãn và những kỷ niệm đáng nhớ cùng ứng dụng của chúng tôi. Nếu có bất kỳ ý kiến đóng góp hoặc thắc mắc nào, đừng ngần ngại liên hệ với chúng tôi. Photify luôn sẵn sàng lắng nghe và phục vụ bạn!
 
